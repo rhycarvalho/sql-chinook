@@ -10,7 +10,7 @@ Esse é um projeto de estudo de SQL que fiz usando o banco de dados Chinook, rod
 
 ## Estrutura do banco
 
-O modelo é relativamente simples de entender: um artista tem vários álbuns, cada álbum tem várias faixas, e cada faixa pode aparecer em vários itens de fatura (invoice_line). Cada fatura pertence a um cliente, que por sua vez é atendido por um funcionário.
+O modelo: um artista tem vários álbuns, cada álbum tem várias faixas, e cada faixa pode aparecer em vários itens de fatura Cada fatura pertence a um cliente, que por sua vez é atendido por um funcionário.
 
 ```
 artist -> album -> track -> invoice_line -> invoice -> customer -> employee
