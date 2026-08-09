@@ -25,7 +25,6 @@ artist -> album -> track -> invoice_line -> invoice -> customer -> employee
 - `queries/02_joins_agregacoes.sql` - JOINs, GROUP BY, HAVING
 - `queries/03_subqueries_ctes.sql` - subconsultas e CTEs
 - `queries/04_window_functions.sql` - RANK, LAG, running total
-- `queries/05_views.sql` - views pra consultas que uso com frequência
 
 ## Perguntas que respondi
 
