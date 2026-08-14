@@ -20,7 +20,7 @@ artist -> album -> track -> invoice_line -> invoice -> customer -> employee
 
 ## Como o repositório está organizado
 
-- `schema.sql` - script que cria e popula o banco (peguei do repositório oficial do Chinook, só tirei as linhas de DROP/CREATE DATABASE e o \c porque eu já criei o banco manualmente pelo pgAdmin)
+- `schema.sql` - script que cria o banco e peguei do repositório oficial do Chinook, só tirei as linhas de DROP/CREATE DATABASE e o \c
 - `queries/01_basicas.sql` - SELECT, WHERE, ORDER BY, LIMIT
 - `queries/02_joins_agregacoes.sql` - JOINs, GROUP BY, HAVING
 - `queries/03_subqueries_ctes.sql` - subconsultas
